@@ -1,13 +1,13 @@
-To-Do-List-App
+# To-Do-List-App
 About
 
 This project is a simple to-do list web application built with HTML, CSS, and JavaScript. It provides users with a straightforward interface to add, manage, and track their task.a
 
 Features
 
-Add New taskk to the to-do list.
+Add new tasks to the to-do list.
 Mark tasks as completed.
-Deleted completed task.
+Delete completed task.
 Intuitive user interface.
 Saves list to local storage to persist past screen refresh.
 Installation
@@ -23,4 +23,4 @@ Click on the task to mark it as completed.
 Click on a completed task to delete it.
 Contributing
 
-Contributions are welcome! If you'd like to contrinbute, please fork the repository, make your changes, and submit a pull request.
+Contributions are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
