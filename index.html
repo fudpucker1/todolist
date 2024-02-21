@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do List</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>To-Do List</h1>
-      <form id="todo-form">
-        <input type="text" id="todo-input" placeholder="Add a new to-do">
-        <button type="submit">Add</button>
-      </form>
-    </div>
-    <div class="todo-columns">
-      <div class="todo-column" id="todo-column">
-        <h2>To Do</h2>
-        <ul id="todo-list">
-          <!-- To-Do items will be dynamically added here -->
-        </ul>
-      </div>
-      <div class="todo-column" id="completed-column">
-        <h2>Completed</h2>
-        <ul id="completed-list">
-          <!-- Completed items will be dynamically added here -->
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <script src="index.js"></script>
-</body>
+    <header class="head-container">
+        <div></div> 
+        <link rel="stylesheet" href="Style.css">
+        <div class="todo-header">
+            <h1>To-Do List</h1> 
+            <form id="todo-form" onsubmit="return false">
+                <input type="text" id="todo-input" placeholder="Add a new to-do">
+                <button type="submit" id="submitBtn">Add</button>
+            </form>
+        </div>
+    </header>
+    <body>
+        <div class="body-container">
+            <div class="column-container">
+                <h2 style="text-align: center;">To-do Tasks</h2>
+                <ol id="to-do-list"></ol> 
+            </div>
+            <div class="column-container">
+                <h2 style="text-align: center;">Completed Tasks</h2>
+                <ol id="completed-list"></ol>
+            </div>
+        </div>
+    <script src="App.js"></script>
+    </body>
+    <footer>
+    </footer>
 </html>
